@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+"""Task 2
+"""
 import asyncio
 import time
 from typing import List
@@ -14,5 +17,5 @@ async def measure_runtime() -> float:
     end_time = time.time()
     elasped_time = end_time - start_time
 
-    return await asyncio.gather(*(async_comprehension() for _ in range(4))
+    await asyncio.gather(*(async_comprehension() for _ in range(4))
     return elasped_time
