@@ -17,4 +17,4 @@ async def async_comprehension() -> List[float]:
     collected for async_generator.
     """
     # using an async comprehension to collect 10 random number
-    return [data async for data in async_generator()]
+    return [nums async for nums in async_generator()]

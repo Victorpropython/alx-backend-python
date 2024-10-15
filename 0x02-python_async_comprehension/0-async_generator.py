@@ -4,7 +4,7 @@ from typing import Generator
 import random
 
 
-async def async_generator() -> Generator[float, None, None]
+async def async_generator() -> Generator[float, None, None]:
 
     """
     An Asynchronous program to take no arguments
