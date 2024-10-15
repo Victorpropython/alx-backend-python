@@ -4,7 +4,7 @@ from typing import Generator
 import random
 
 
-async def async_generator():
+async def async_generator() -> Generator[float, None, None]
 
     """
     An Asynchronous program to take no arguments
@@ -13,6 +13,6 @@ async def async_generator():
     Args:
     no args taken
     """
-    for i in range(10):
+    for _ in range(10):
         await asyncio.sleep(i)
-        yield random.uniform(0, 10)
+        yield random.random() * 10
