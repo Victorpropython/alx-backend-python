@@ -1,4 +1,4 @@
-#!/usr/bin/rnv python3
+#!/usr/bin/env python3
 """For task 1
 """
 from typing import List
