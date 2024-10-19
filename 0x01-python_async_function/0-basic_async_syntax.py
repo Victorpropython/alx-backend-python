@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+"""Solving Task 0
+"""
 import asyncio
 import random
 
