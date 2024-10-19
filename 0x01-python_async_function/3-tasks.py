@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+"""Solving for task 3
+"""
+
 import random
 import asyncio
 
